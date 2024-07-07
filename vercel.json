@@ -1,0 +1,7 @@
+    {
+      "version": 2,
+      "routes": [
+        { "src": "/example.png", "dest": "/example.png.php" }
+      ]
+    }
+    
