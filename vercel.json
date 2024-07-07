@@ -1,7 +1,15 @@
+{
+  "version": 2,
+  "builds": [
     {
-      "version": 2,
-      "routes": [
-        { "src": "/example.png", "dest": "/example.png.php" }
-      ]
+      "src": "example.png.php",
+      "use": "@vercel/php"
     }
-    
+  ],
+  "routes": [
+    {
+      "src": "/example.png",
+      "dest": "example.png.php"
+    }
+  ]
+}
