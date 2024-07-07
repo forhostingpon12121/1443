@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "example.png.php",
-      "use": "@vercel/php"
+      "src": "example.php",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/example.png",
-      "dest": "example.png.php"
+      "dest": "/example.php"
     }
   ]
 }
